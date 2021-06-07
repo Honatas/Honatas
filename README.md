@@ -15,7 +15,7 @@
   
 Well, 👋 hi there! My name is **Jonatas** and I'm a Fullstack Software Engineer from Brazil. Welcome to my Github page!  
 
-I'll present here some software I've come up with, and what has motivated me to code them. These are organized by field, so feel free to browse which section most interest you.
+I'll present here some software I've come up with, and what has motivated me to code them. I hope you can find something useful here! These are organized by field, so feel free to browse which section most interest you.
 
 ## Front end
 
