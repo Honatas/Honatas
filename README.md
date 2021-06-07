@@ -19,41 +19,63 @@ I'll present here some software I've come up with, and what has motivated me to 
 
 ## Front end
 
-**Multi Select Webcomponent** ([https://github.com/Honatas/multi-select-webcomponent](https://github.com/Honatas/multi-select-webcomponent))  
+**Multi Select Webcomponent** <a href="https://www.npmjs.com/package/@honatas/multi-select-webcomponent">
+  <img src="https://img.shields.io/badge/-↗-CB3837?style=plastic&logo=npm&logoColor=white"/>
+</a>  
 A Webcomponent that allows you to make multiple selections while having almost the same complexity as adding a \<select\> tag to your html.  
 
-**A WebComponent journey** ([https://dev.to/honatas/a-webcomponent-journey-1kma](https://dev.to/honatas/a-webcomponent-journey-1kma))  
+**A WebComponent journey** <a href="https://dev.to/honatas/a-webcomponent-journey-1kma">
+  <img src="https://img.shields.io/badge/-↗-black?style=plastic&logo=dev-dot-to&logoColor=white"/>
+</a>  
 An article where I go through all the development and thought process of Multi Select Webcomponent.  
 
-**Bootstrap 4 Autocomplete** ([https://github.com/Honatas/bootstrap-4-autocomplete](https://github.com/Honatas/bootstrap-4-autocomplete))  
+**Bootstrap 4 Autocomplete** <a href="https://www.npmjs.com/package/bootstrap-4-autocomplete">
+  <img src="https://img.shields.io/badge/-↗-CB3837?style=plastic&logo=npm&logoColor=white"/>
+</a>  
 A bit older, but if you are still using Bootstrap 4 and JQuery, maybe this autocomplete plugin can fit your needs.  
 
-**Frameworkless JAMStack** ([https://github.com/Honatas/frameworkless-jamstack](https://github.com/Honatas/frameworkless-jamstack))  
+**Frameworkless JAMStack** <a href="https://frameworkless-jamstack.netlify.app">
+  <img src="https://img.shields.io/badge/-↗-00C7B7?style=plastic&logo=netlify&logoColor=white"/>
+</a>  
 A PoC (Proof of Concept) that showcases how one can get a modern web development enviroment without resorting to feature-bloated frameworks.
 
-**Properly precompile Handlebars templates and partials with Gulp** ([https://dev.to/honatas/properly-precompile-handlebars-templates-and-partials-with-gulp-4g91](https://dev.to/honatas/properly-precompile-handlebars-templates-and-partials-with-gulp-4g91))  
+**Properly precompile Handlebars templates and partials with Gulp** <a href="https://dev.to/honatas/properly-precompile-handlebars-templates-and-partials-with-gulp-4g91">
+  <img src="https://img.shields.io/badge/-↗-black?style=plastic&logo=dev-dot-to&logoColor=white"/>
+</a>  
 An article demonstrating how to precompile Handlebars templates in a most effective way.  
 
 
 ## Back end
 
-**Field Validator** ([https://github.com/Honatas/field-validator](https://github.com/Honatas/field-validator))  
+**Field Validator** <a href="https://github.com/Honatas/field-validator">
+  <img src="https://img.shields.io/badge/-↗-navy?style=plastic&logo=github&logoColor=white"/>
+</a>  
 A Java validation tool that leverages Java's lambda functions allowing you to create your set of validators and execute them over arbitrary data.  
 
-**A different approach to User Sessions in Microservices using Redis** ([https://dev.to/honatas/a-different-approach-to-user-sessions-in-microservices-5bpi](https://dev.to/honatas/a-different-approach-to-user-sessions-in-microservices-5bpi))  
+**A different approach to User Sessions in Microservices using Redis** <a href="https://dev.to/honatas/a-different-approach-to-user-sessions-in-microservices-5bpi">
+  <img src="https://img.shields.io/badge/-↗-black?style=plastic&logo=dev-dot-to&logoColor=white"/>
+</a>  
 An article presenting an alternative to using JWTs for user session control in a microservices environment.  
 
-**Is Hibernate Really Worth It?** ([https://dev.to/honatas/is-hibernate-really-worth-it-1cmi](https://dev.to/honatas/is-hibernate-really-worth-it-1cmi))  
+**Is Hibernate Really Worth It?** <a href="https://dev.to/honatas/is-hibernate-really-worth-it-1cmi">
+  <img src="https://img.shields.io/badge/-↗-black?style=plastic&logo=dev-dot-to&logoColor=white"/>
+</a>  
 An article where I discuss the downsides of using ORMs and present an alternative to it.  
 
 
 ## Devops
 
-**Ansible Role - OpenJDK** ([https://github.com/Honatas/ansible-role-openjdk-ppa](https://github.com/Honatas/ansible-role-openjdk-ppa))  
+**Ansible Role - OpenJDK** <a href="https://galaxy.ansible.com/honatas/openjdk_ppa">
+  <img src="https://img.shields.io/badge/-↗-EE0000?style=plastic&logo=Ansible&logoColor=white"/>
+</a>  
 An Ansible role that installs any version of OpenJDK from Matthias Klose's openjdk-r PPA repository.  
 
-**Ansible Role - PostgreSQL** ([https://github.com/Honatas/ansible-role-postgresql-dev](https://github.com/Honatas/ansible-role-postgresql-dev))  
+**Ansible Role - PostgreSQL** <a href="https://galaxy.ansible.com/honatas/postgresql_dev">
+  <img src="https://img.shields.io/badge/-↗-EE0000?style=plastic&logo=Ansible&logoColor=white"/>
+</a>  
 An Ansible role that installs PostgreSQL with remote access enabled, suitable for development environments.  
 
-**Ansible Role - Tomcat** ([https://github.com/Honatas/ansible-role-tomcat-dev](https://github.com/Honatas/ansible-role-tomcat-dev))  
+**Ansible Role - Tomcat** <a href="https://galaxy.ansible.com/honatas/tomcat_dev">
+  <img src="https://img.shields.io/badge/-↗-EE0000?style=plastic&logo=Ansible&logoColor=white"/>
+</a>  
 An Ansible role that installs Apache Tomcat with the Manager GUI enabled, suitable for development environments.
