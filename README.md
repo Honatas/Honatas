@@ -4,7 +4,7 @@
   <img src="https://img.shields.io/badge/-Jonatas%20de%20Moraes%20Junior-blue?style=plastic&logo=Linkedin&logoColor=white" style="height:20px"/>
 </a>
 <a href="https://dev.to/honatas">
-  <img src="https://img.shields.io/badge/-Honatas-black?style=plastic&logo=dev-dot-to&logoColor=white" style="height:20px"/>
+  <img src="https://img.shields.io/badge/-Honatas-black?style=plastic&logo=dev.to&logoColor=white" style="height:20px"/>
 </a>
 <a href="mailto:jmoraes@gmail.com">
   <img src="https://img.shields.io/badge/-jmoraes@gmail.com-red?style=plastic&logo=Gmail&logoColor=white&link=mailto:jmoraes@gmail.com" style="height:20px"/>
@@ -25,7 +25,7 @@ I'll present here some software I've come up with, and what has motivated me to 
 A Webcomponent that allows you to make multiple selections while having almost the same complexity as adding a \<select\> tag to your html.  
 
 **A WebComponent journey** <a href="https://dev.to/honatas/a-webcomponent-journey-1kma">
-  <img src="https://img.shields.io/badge/-↗-black?style=plastic&logo=dev-dot-to&logoColor=white"/>
+  <img src="https://img.shields.io/badge/-↗-black?style=plastic&logo=dev.to&logoColor=white"/>
 </a>  
 An article where I go through all the development and thought process of Multi Select Webcomponent.  
 
@@ -34,13 +34,13 @@ An article where I go through all the development and thought process of Multi S
 </a>  
 A bit older, but if you are still using Bootstrap 4 and JQuery, maybe this autocomplete plugin can fit your needs.  
 
-**Frameworkless JAMStack** <a href="https://frameworkless-jamstack.netlify.app">
-  <img src="https://img.shields.io/badge/-↗-00C7B7?style=plastic&logo=netlify&logoColor=white"/>
+**Frameworkless JAMStack** <a href="https://github.com/Honatas/frameworkless-jamstack">
+  <img src="https://img.shields.io/badge/-↗-navy?style=plastic&logo=github&logoColor=white"/>
 </a>  
 A PoC (Proof of Concept) that showcases how one can get a modern web development enviroment without resorting to feature-bloated frameworks.
 
 **Properly precompile Handlebars templates and partials with Gulp** <a href="https://dev.to/honatas/properly-precompile-handlebars-templates-and-partials-with-gulp-4g91">
-  <img src="https://img.shields.io/badge/-↗-black?style=plastic&logo=dev-dot-to&logoColor=white"/>
+  <img src="https://img.shields.io/badge/-↗-black?style=plastic&logo=dev.to&logoColor=white"/>
 </a>  
 An article demonstrating how to precompile Handlebars templates in a most effective way.  
 
@@ -53,12 +53,12 @@ An article demonstrating how to precompile Handlebars templates in a most effect
 A Java validation tool that leverages Java's lambda functions allowing you to create your set of validators and execute them over arbitrary data.  
 
 **A different approach to User Sessions in Microservices using Redis** <a href="https://dev.to/honatas/a-different-approach-to-user-sessions-in-microservices-5bpi">
-  <img src="https://img.shields.io/badge/-↗-black?style=plastic&logo=dev-dot-to&logoColor=white"/>
+  <img src="https://img.shields.io/badge/-↗-black?style=plastic&logo=dev.to&logoColor=white"/>
 </a>  
 An article presenting an alternative to using JWTs for user session control in a microservices environment.  
 
 **Is Hibernate Really Worth It?** <a href="https://dev.to/honatas/is-hibernate-really-worth-it-1cmi">
-  <img src="https://img.shields.io/badge/-↗-black?style=plastic&logo=dev-dot-to&logoColor=white"/>
+  <img src="https://img.shields.io/badge/-↗-black?style=plastic&logo=dev.to&logoColor=white"/>
 </a>  
 An article where I discuss the downsides of using ORMs and present an alternative to it.  
 
