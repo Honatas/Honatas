@@ -19,7 +19,7 @@ I'll present here some software I've come up with, and what has motivated me to 
 
 ## Front end
 
-**Multi Select Webcomponent**
+[**Multi Select Webcomponent**](https://github.com/Honatas/multi-select-webcomponent)
 <a href="https://www.npmjs.com/package/@honatas/multi-select-webcomponent">
   <img src="https://img.shields.io/badge/-↗-CB3837?style=plastic&logo=npm&logoColor=white"/>
 </a>
@@ -28,22 +28,24 @@ I'll present here some software I've come up with, and what has motivated me to 
 </a>  
 A Webcomponent that allows you to make multiple selections while having almost the same complexity as adding a \<select\> tag to your html.  
 
-**A WebComponent journey**
+[**A WebComponent journey**](https://dev.to/honatas/a-webcomponent-journey-1kma)
 <a href="https://dev.to/honatas/a-webcomponent-journey-1kma">
   <img src="https://img.shields.io/badge/-↗-black?style=plastic&logo=dev.to&logoColor=white"/>
 </a>  
 An article where I go through all the development and thought process of Multi Select Webcomponent.  
 
-**Bootstrap 4 Autocomplete**
+[**Bootstrap 4 Autocomplete**](https://github.com/Honatas/bootstrap-4-autocomplete)
 <a href="https://www.npmjs.com/package/bootstrap-4-autocomplete">
   <img src="https://img.shields.io/badge/-↗-CB3837?style=plastic&logo=npm&logoColor=white"/>
 </a>
 <a href="https://github.com/Honatas/bootstrap-4-autocomplete">
   <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/honatas/bootstrap-4-autocomplete?style=social">
-</a>  
+  <img alt="GitHub Repo forks" src="https://img.shields.io/github/forks/honatas/bootstrap-4-autocomplete?style=social&label=Fork">
+</a>
+
 A bit older, but if you are still using Bootstrap 4 and JQuery, maybe this autocomplete plugin can fit your needs.  
 
-**Frameworkless JAMStack**
+[**Frameworkless JAMStack**](https://github.com/Honatas/frameworkless-jamstack)
 <a href="https://github.com/Honatas/frameworkless-jamstack">
   <img src="https://img.shields.io/badge/-↗-navy?style=plastic&logo=github&logoColor=white"/>
 </a>
@@ -52,7 +54,7 @@ A bit older, but if you are still using Bootstrap 4 and JQuery, maybe this autoc
 </a>  
 A PoC (Proof of Concept) that showcases how one can get a modern web development enviroment without resorting to feature-bloated frameworks.
 
-**Properly precompile Handlebars templates and partials with Gulp**
+[**Properly precompile Handlebars templates and partials with Gulp**](https://dev.to/honatas/properly-precompile-handlebars-templates-and-partials-with-gulp-4g91)
 <a href="https://dev.to/honatas/properly-precompile-handlebars-templates-and-partials-with-gulp-4g91">
   <img src="https://img.shields.io/badge/-↗-black?style=plastic&logo=dev.to&logoColor=white"/>
 </a>  
@@ -61,7 +63,7 @@ An article demonstrating how to precompile Handlebars templates in a most effect
 
 ## Back end
 
-**Field Validator**
+[**Field Validator**](https://github.com/Honatas/field-validator)
 <a href="https://github.com/Honatas/field-validator">
   <img src="https://img.shields.io/badge/-↗-navy?style=plastic&logo=github&logoColor=white"/>
 </a>
@@ -70,13 +72,13 @@ An article demonstrating how to precompile Handlebars templates in a most effect
 </a>  
 A Java validation tool that leverages Java's lambda functions allowing you to create your set of validators and execute them over arbitrary data.  
 
-**A different approach to User Sessions in Microservices using Redis**
+[**A different approach to User Sessions in Microservices using Redis**](https://dev.to/honatas/a-different-approach-to-user-sessions-in-microservices-5bpi)
 <a href="https://dev.to/honatas/a-different-approach-to-user-sessions-in-microservices-5bpi">
   <img src="https://img.shields.io/badge/-↗-black?style=plastic&logo=dev.to&logoColor=white"/>
 </a>  
 An article presenting an alternative to using JWTs for user session control in a microservices environment.  
 
-**Is Hibernate Really Worth It?**
+[**Is Hibernate Really Worth It?**](https://dev.to/honatas/is-hibernate-really-worth-it-1cmi)
 <a href="https://dev.to/honatas/is-hibernate-really-worth-it-1cmi">
   <img src="https://img.shields.io/badge/-↗-black?style=plastic&logo=dev.to&logoColor=white"/>
 </a>  
@@ -85,19 +87,19 @@ An article where I discuss the downsides of using ORMs and present an alternativ
 
 ## Devops
 
-**Ansible Role - OpenJDK**
+[**Ansible Role - OpenJDK**](https://github.com/Honatas/ansible-role-openjdk-ppa)
 <a href="https://galaxy.ansible.com/honatas/openjdk_ppa">
   <img src="https://img.shields.io/badge/-↗-EE0000?style=plastic&logo=Ansible&logoColor=white"/>
 </a>  
 An Ansible role that installs any version of OpenJDK from Matthias Klose's openjdk-r PPA repository.  
 
-**Ansible Role - PostgreSQL**
+[**Ansible Role - PostgreSQL**](https://github.com/Honatas/ansible-role-postgresql-dev)
 <a href="https://galaxy.ansible.com/honatas/postgresql_dev">
   <img src="https://img.shields.io/badge/-↗-EE0000?style=plastic&logo=Ansible&logoColor=white"/>
 </a>  
 An Ansible role that installs PostgreSQL with remote access enabled, suitable for development environments.  
 
-**Ansible Role - Tomcat**
+[**Ansible Role - Tomcat**](https://github.com/Honatas/ansible-role-tomcat-dev)
 <a href="https://galaxy.ansible.com/honatas/tomcat_dev">
   <img src="https://img.shields.io/badge/-↗-EE0000?style=plastic&logo=Ansible&logoColor=white"/>
 </a>  
