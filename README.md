@@ -41,8 +41,7 @@ An article where I go through all the development and thought process of Multi S
 <a href="https://github.com/Honatas/bootstrap-4-autocomplete">
   <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/honatas/bootstrap-4-autocomplete?style=social">
   <img alt="GitHub Repo forks" src="https://img.shields.io/github/forks/honatas/bootstrap-4-autocomplete?style=social&label=Fork">
-</a>
-
+</a>  
 A bit older, but if you are still using Bootstrap 4 and JQuery, maybe this autocomplete plugin can fit your needs.  
 
 [**Frameworkless JAMStack**](https://github.com/Honatas/frameworkless-jamstack)
@@ -54,11 +53,11 @@ A bit older, but if you are still using Bootstrap 4 and JQuery, maybe this autoc
 </a>  
 A PoC (Proof of Concept) that showcases how one can get a modern web development enviroment without resorting to feature-bloated frameworks.
 
-[**Properly precompile Handlebars templates and partials with Gulp**](https://dev.to/honatas/properly-precompile-handlebars-templates-and-partials-with-gulp-4g91)
-<a href="https://dev.to/honatas/properly-precompile-handlebars-templates-and-partials-with-gulp-4g91">
+[**Why VDOM vs. DOM comparison is biased and unfair**](https://dev.to/honatas/why-vdom-vs-dom-comparison-is-biased-and-unfair-471m)
+<a href="https://dev.to/honatas/why-vdom-vs-dom-comparison-is-biased-and-unfair-471m">
   <img src="https://img.shields.io/badge/-↗-black?style=plastic&logo=dev.to&logoColor=white"/>
 </a>  
-An article demonstrating how to precompile Handlebars templates in a most effective way.  
+A bit of reasoning on why you may not need a Virtual DOM Framework for every project.  
 
 
 ## Back end
