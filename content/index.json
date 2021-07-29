@@ -4,12 +4,65 @@
   "contacts": {
     "email": "jmoraes@gmail.com"
   },
-  "profile": "With about 17 years of experience in IT, I consider myself a very versatile professional capable of performing at every step of the development proccess - from requiremets through development and delivery - always following the precepts of the Agile methodology. My main focus is on product quality, both code and deliverables.",
+  "languages": {
+    "Portuguese": "Native",
+    "English": "Fluent"
+  },
+  "skills": {
+    "Java - Spring": 5,
+    "Javascript - Typescript": 5,
+    "SQL (Oracle, MySQL, PostgreSQL)": 5,
+    "Ansible": 4,
+    "Flutter": 3
+  },
+  "profile": "With about 17 years of experience in IT, I consider myself a very versatile professional capable of performing at every step of the development proccess - from requirements through development and delivery - always following the precepts of the Agile methodology. My main focuses are product quality, code simplicity and performance.",
   "experiences": [{
     "from": "Feb, 2018",
-    "to": "now",
+    "to": "Today",
     "title": "Systems Architect / Tech Lead",
     "company": "Discover Technology",
-    "description": "Designed and implemented several systems for different customers, involving Web and Mobile applications and Cloud environments. Created CI/CD pipelines for most of them, and automated development environments in oder to speed up onboarding proccesses. Responsible also for recruitment and mentoring of newcomers."
+    "description": "Design and development of several systems for different customers, involving Web and Mobile applications and Cloud environments. Creation of CI/CD pipelines for most of them, and automation of development environments in oder to speed up onboarding proccesses. Responsible also for recruitment and mentoring of newcomers."
+  },{
+    "from": "Aug, 2016",
+    "to": "Jun, 2017",
+    "title": "Software Engineer - Backend",
+    "company": "UOL Pagseguro",
+    "description": "Maintenance on Recurring Payments and Payment Links web apps and APIs. Creation of API documentation for third-party customers."
+  },{
+    "from": "Apr, 2012",
+    "to": "Jun, 2016",
+    "title": "Software Engineer / Tech Lead",
+    "company": "Discover Technology",
+    "description": "Development and customization of e-commerce sites with Oracle Commerce Platform (ATG). Team Leader with responsibility over code quality and deliveries."
+  },{
+    "from": "Nov, 2011",
+    "to": "Mar, 2012",
+    "title": "Software Engineer",
+    "company": "CCEE",
+    "description": "Development of an application for control of power lines and power supply commercialization contracts."
+  },{
+    "from": "Mar, 2010",
+    "to": "Oct, 2011",
+    "title": "Software Engineer",
+    "company": "Diebold",
+    "description": "Development of bank systems for Caixa Economica Federal."
+  },{
+    "from": "Aug, 2004",
+    "to": "Feb, 2010",
+    "title": "Trainee / Software Engineer",
+    "company": "Discover Technology",
+    "description": "Development of many different web systems for several customers, like: McDonald's, Editora Abril, Tokio Marine, Michael Page."
+  },{
+    "from": "May, 2003",
+    "to": "Dec, 2003",
+    "title": "Trainee",
+    "company": "UNICAMP",
+    "description": "Development of graphical interface (C++/OpenGL) for math simulation output for Petrobras."
+  }],
+  "education": [{
+    "title": "BSc Computer Science",
+    "entity": "UNESP - Universidade Estadual Paulista Júlio de Mesquita Filho",
+    "locale": "Rio Claro - SP",
+    "concluded": "Dec, 2003"
   }]
 }

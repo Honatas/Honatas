@@ -16,8 +16,25 @@
         <div class="mb-5">
           <img id="my-face" src="Jonatas.jpg" class="m-4 border border-5 border-white rounded-pill">
         </div>
-        <div class="fw-bold mb-2">SUMMARY</div>
-        <div class="text-justify">{{ profile }}</div>
+        
+        <div class="mb-5">
+          <div class="fw-bold mb-2">SUMMARY</div>
+          <div class="text-justify">{{ profile }}</div>
+        </div>
+
+        <div class="mb-5">
+          <div class="fw-bold mb-2">STRONGEST SKILLS</div>
+          {{#each skills}}
+            <div>{{@key}}: {{ this }}</div>
+          {{/each}}
+        </div>
+        
+        <div class="mb-5">
+          <div class="fw-bold mb-2">LANGUAGES</div>
+          {{#each languages}}
+            <div>{{@key}}: {{ this }}</div>
+          {{/each}}
+        </div>
         
       </div>
       
@@ -33,9 +50,18 @@
         </div>
 
         {{#each experiences}}
-          <div>{{ title }} at {{ company }}</div>
-          <div>{{ from }} - {{ to }}</div>
-          <div>{{ description }}</div>
+          <div class="mb-3">
+            <div>{{ title }} at {{ company }}</div>
+            <div>{{ from }} - {{ to }}</div>
+            <div>{{ description }}</div>
+          </div>
+        {{/each}}
+
+        {{#each education}}
+          <div class="mb-3">
+            <div>{{ title }} at {{ entity }}</div>
+            <div>{{ locale }} - Concluded in {{ concluded }}.</div>
+          </div>
         {{/each}}
       </div>
     </div>
