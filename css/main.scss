@@ -28,3 +28,34 @@ body {
 .star {
   color: $yellow-500;
 }
+
+#building {
+  width: 55px;
+  height: 55px;
+  padding-left: 8px;
+  font-size: 33px;
+  color: $blue-700;
+  border-color: $gray-700 !important;
+}
+
+#university {
+  width: 55px;
+  height: 55px;
+  padding-left: 8px;
+  font-size: 33px;
+  color: $blue-700;
+  border-color: $gray-700 !important;
+}
+
+.pill {
+  margin-top: 4px;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: $blue-700;
+}
+
+.side {
+  border-left: 2px dashed $blue-700;
+  margin-left: 27px;
+  margin-right: 28px;
+}

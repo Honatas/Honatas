@@ -14,21 +14,56 @@
       {{>left this}}
       <div class="flex-grow-1">
         {{>header this}}
-       
+        <div class="p-5">
+          
+          <div class="d-flex mb-2">
+            <div id="building" class="border border-3 rounded-pill"><i class="bi-building"></i></div>
+            <div class="ms-2 d-flex align-items-center">
+              <div class="fs-4">WORK EXPERIENCE</div>
+            </div>
+          </div>
 
-        <div class="p-3">
           {{#each experiences}}
-            <div class="mb-3">
-              <div>{{ title }} at {{ company }}</div>
-              <div>{{ from }} - {{ to }}</div>
-              <div>{{ description }}</div>
+            <div class="d-flex">
+              <div class="pill"><i class="bi-circle-fill"></i></div>
+              <div class="d-flex flex-grow-1">
+                <div class="fs-5">{{ title }}</div>
+                <div class="d-flex flex-grow-1 justify-content-end align-items-center">
+                  <div class="ms-3"><i class="bi-briefcase-fill"></i> {{ company }}</div>
+                  <div class="ms-3"><i class="bi-calendar3"></i> {{ from }} - {{ to }}</div>
+                </div>
+              </div>
+            </div>
+            <div class="d-flex">
+              <div class="side"></div>
+              <div>
+                <div class="mb-5">{{ description }}</div>
+              </div>
             </div>
           {{/each}}
 
+          <div class="d-flex mb-2 mt-3">
+            <div id="university" class="border border-3 rounded-pill"><i class="bi-bank2"></i></div>
+            <div class="ms-2 d-flex align-items-center">
+              <div class="fs-4">EDUCATION</div>
+            </div>
+          </div>
+
           {{#each education}}
-            <div class="mb-3">
-              <div>{{ title }} at {{ entity }}</div>
-              <div>{{ locale }} - Concluded in {{ concluded }}.</div>
+            <div class="d-flex">
+              <div class="pill"><i class="bi-circle-fill"></i></div>
+              <div class="d-flex flex-grow-1">
+                <div class="fs-5">{{ title }}</div>
+                <div class="d-flex flex-grow-1 justify-content-end align-items-center">
+                  <div class="ms-3"><i class="bi-calendar3"></i> {{ concluded }}</div>
+                </div>
+              </div>
+            </div>
+            <div class="d-flex">
+              <div class="side"></div>
+              <div>
+                <div class="mb-5">{{ entity }} - {{ locale }}</div>
+              </div>
             </div>
           {{/each}}
         </div>

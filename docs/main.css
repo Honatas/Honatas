@@ -10769,6 +10769,37 @@ body {
 .star {
   color: #ffc107;
 }
+
+#building {
+  width: 55px;
+  height: 55px;
+  padding-left: 8px;
+  font-size: 33px;
+  color: #084298;
+  border-color: #495057 !important;
+}
+
+#university {
+  width: 55px;
+  height: 55px;
+  padding-left: 8px;
+  font-size: 33px;
+  color: #084298;
+  border-color: #495057 !important;
+}
+
+.pill {
+  margin-top: 4px;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: #084298;
+}
+
+.side {
+  border-left: 2px dashed #084298;
+  margin-left: 27px;
+  margin-right: 28px;
+}
 @font-face {
   font-family: "bootstrap-icons";
   src: url("./fonts/bootstrap-icons.woff2?856008caa5eb66df68595e734e59580d") format("woff2"),

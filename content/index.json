@@ -15,10 +15,10 @@
   "skills": {
     "Java - Spring": 5,
     "Javascript - Typescript": 5,
-    "SQL (Oracle, MySQL, PostgreSQL)": 5,
-    "NoSQL (Redis)": 3,
     "Ansible": 4,
-    "Flutter": 3
+    "Dart - Flutter": 3,
+    "SQL (Oracle, MySQL, PostgreSQL)": 5,
+    "NoSQL (Redis)": 3
   },
   "profile": "With about 17 years of experience in IT, I consider myself a very versatile professional capable of performing at every step of the development proccess - from requirements through development and delivery - always following the precepts of the Agile methodology. My main focuses are product quality, code simplicity and performance.",
   "experiences": [{
@@ -26,7 +26,7 @@
     "to": "Today",
     "title": "Systems Architect / Tech Lead",
     "company": "Discover Technology",
-    "description": "Design and development of several systems for different customers, involving Web and Mobile applications and Cloud environments. Creation of CI/CD pipelines for most of them, and automation of development environments in oder to speed up onboarding proccesses. Responsible also for recruitment and mentoring of newcomers."
+    "description": "Design and development of several systems for different customers, involving Web and Mobile applications and Cloud environments. Creation of CI/CD pipelines for most of them, and automation of development environments in oder to speed up onboarding proccesses. Also responsible for recruitment and mentoring of newcomers."
   },{
     "from": "Aug, 2016",
     "to": "Jun, 2017",
