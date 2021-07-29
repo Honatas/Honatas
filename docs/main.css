@@ -7214,7 +7214,7 @@ textarea.form-control-lg {
   text-align: center !important;
 }
 
-.text-decoration-none, #main-card a {
+.text-decoration-none, #header a {
   text-decoration: none !important;
 }
 
@@ -7285,7 +7285,7 @@ textarea.form-control-lg {
   color: #212529 !important;
 }
 
-.text-white, #main-card a {
+.text-white, #header a {
   color: #fff !important;
 }
 
@@ -10752,19 +10752,22 @@ body {
 
 #left-lane {
   background-color: #084298;
-  width: 400px;
+  width: 350px;
 }
 
 #my-face {
   display: block;
-  max-width: 300px;
+  max-width: 270px;
   width: auto;
   height: auto;
 }
 
-#main-card {
+#header {
   background-color: #495057;
   padding: 1.75rem;
+}
+.star {
+  color: #ffc107;
 }
 @font-face {
   font-family: "bootstrap-icons";

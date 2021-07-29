@@ -11,69 +11,10 @@
 {{#with content}}
   <div class="container">
     <div class="rounded shadow w-100 my-4 d-flex bg-white">
-      
-      <div id="left-lane" class="text-white p-3 rounded-start">
-        <div class="mb-5">
-          <img id="my-face" src="Jonatas.jpg" class="m-4 border border-5 border-white rounded-pill">
-        </div>
-        
-        <div class="mb-5">
-          <div class="fw-bold mb-2">SUMMARY</div>
-          <div class="text-justify">{{ profile }}</div>
-        </div>
-
-        <div class="mb-5">
-          <div class="fw-bold mb-2">STRONGEST SKILLS</div>
-          {{#each skills}}
-            <div>{{@key}}: {{ this }}</div>
-          {{/each}}
-        </div>
-        
-        <div class="mb-5">
-          <div class="fw-bold mb-2">LANGUAGES</div>
-          {{#each languages}}
-            <div>{{@key}}: {{ this }}</div>
-          {{/each}}
-        </div>
-        
-      </div>
-      
+      {{>left this}}
       <div class="flex-grow-1">
-
-        <div id="main-card" class="d-flex flex-column align-items-center mb-3 text-white">
-          <h1 class="mb-0">{{ name }}</h1>
-          <div class="mb-3">{{ title }}</div>
-          {{#with contacts}}
-            <div class="d-flex justify-content-center">
-              <div class="p-2">
-                <a href="{{ github }}" target="_blank">
-                  <i class="bi-github"></i>
-                  Github
-                </a>
-              </div>
-              <div class="p-2">
-                <a href="{{ linkedin }}" target="_blank">
-                  <i class="bi-linkedin"></i>
-                  LinkedIn
-                </a>
-              </div>
-              <div class="p-2">
-                <i class="bi-geo-alt-fill"></i>
-                {{ location }}
-              </div>
-              <div class="p-2">
-                <i class="bi-globe2"></i>
-                {{ country }}
-              </div>
-              <div class="p-2">
-                <a href="mailto:{{ email }}">
-                  <i class="bi-envelope-fill"></i>
-                  {{ email }}
-                </a>
-              </div>
-            </div>
-          {{/with}}
-        </div>
+        {{>header this}}
+       
 
         <div class="p-3">
           {{#each experiences}}

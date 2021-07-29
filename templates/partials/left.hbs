@@ -1,0 +1,30 @@
+<div id="left-lane" class="text-white p-3 rounded-start">
+  <div class="mb-5">
+    <img id="my-face" src="Jonatas.jpg" class="m-4 border border-5 border-white rounded-pill">
+  </div>
+  
+  <div class="mb-5">
+    <div class="fw-bold mb-2">SUMMARY</div>
+    <div class="text-justify">{{ profile }}</div>
+  </div>
+
+  <div class="mb-5">
+    <div class="fw-bold mb-2">STRONGEST SKILLS</div>
+    {{#each skills}}
+      <div>{{@key}}</div>
+      <div class="d-flex justify-content-end">
+        {{#repeat this}}
+        <div><i class="star bi-star-fill"></i></div>
+        {{/repeat}}
+      </div>
+    {{/each}}
+  </div>
+  
+  <div class="mb-5">
+    <div class="fw-bold mb-2">LANGUAGES</div>
+    {{#each languages}}
+      <div>{{@key}}: {{ this }}</div>
+    {{/each}}
+  </div>
+  
+</div>

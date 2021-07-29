@@ -6,21 +6,25 @@ body {
 
 #left-lane {
   background-color: $blue-700;
-  width: 400px;
+  width: 350px;
 }
 
 #my-face {
   display: block;
-  max-width:300px;
+  max-width: 270px;
   width: auto;
   height: auto;
 }
 
-#main-card {
+#header {
   background-color: $gray-700;
   padding: $spacer * 1.75;
   a {
     @extend .text-white;
     @extend .text-decoration-none;
   }
+}
+
+.star {
+  color: $yellow-500;
 }
