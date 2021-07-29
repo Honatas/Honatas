@@ -2,7 +2,11 @@
   "name": "Jonatas de Moraes Junior",
   "title": "Senior Fullstack Software Engineer",
   "contacts": {
-    "email": "jmoraes@gmail.com"
+    "email": "jmoraes@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/jonatas-de-moraes-junior-b9b6741a/",
+    "github": "https://github.com/Honatas",
+    "location": "São Paulo - SP",
+    "country": "Brazil"
   },
   "languages": {
     "Portuguese": "Native",
@@ -12,6 +16,7 @@
     "Java - Spring": 5,
     "Javascript - Typescript": 5,
     "SQL (Oracle, MySQL, PostgreSQL)": 5,
+    "NoSQL (Redis)": 3,
     "Ansible": 4,
     "Flutter": 3
   },

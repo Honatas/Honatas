@@ -38,31 +38,60 @@
         
       </div>
       
-      <div class="p-3 mt-3 flex-grow-1">
-        <div class="d-flex flex-column align-items-center mt-2 mb-5">
+      <div class="flex-grow-1">
+
+        <div id="main-card" class="d-flex flex-column align-items-center mb-3 text-white">
           <h1 class="mb-0">{{ name }}</h1>
-          <div>{{ title }}</div>
+          <div class="mb-3">{{ title }}</div>
           {{#with contacts}}
-            <div>
-              <div>Email: {{ email }}</div> 
+            <div class="d-flex justify-content-center">
+              <div class="p-2">
+                <a href="{{ github }}" target="_blank">
+                  <i class="bi-github"></i>
+                  Github
+                </a>
+              </div>
+              <div class="p-2">
+                <a href="{{ linkedin }}" target="_blank">
+                  <i class="bi-linkedin"></i>
+                  LinkedIn
+                </a>
+              </div>
+              <div class="p-2">
+                <i class="bi-geo-alt-fill"></i>
+                {{ location }}
+              </div>
+              <div class="p-2">
+                <i class="bi-globe2"></i>
+                {{ country }}
+              </div>
+              <div class="p-2">
+                <a href="mailto:{{ email }}">
+                  <i class="bi-envelope-fill"></i>
+                  {{ email }}
+                </a>
+              </div>
             </div>
           {{/with}}
         </div>
 
-        {{#each experiences}}
-          <div class="mb-3">
-            <div>{{ title }} at {{ company }}</div>
-            <div>{{ from }} - {{ to }}</div>
-            <div>{{ description }}</div>
-          </div>
-        {{/each}}
+        <div class="p-3">
+          {{#each experiences}}
+            <div class="mb-3">
+              <div>{{ title }} at {{ company }}</div>
+              <div>{{ from }} - {{ to }}</div>
+              <div>{{ description }}</div>
+            </div>
+          {{/each}}
 
-        {{#each education}}
-          <div class="mb-3">
-            <div>{{ title }} at {{ entity }}</div>
-            <div>{{ locale }} - Concluded in {{ concluded }}.</div>
-          </div>
-        {{/each}}
+          {{#each education}}
+            <div class="mb-3">
+              <div>{{ title }} at {{ entity }}</div>
+              <div>{{ locale }} - Concluded in {{ concluded }}.</div>
+            </div>
+          {{/each}}
+        </div>
+
       </div>
     </div>
   </div>

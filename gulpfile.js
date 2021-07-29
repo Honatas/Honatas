@@ -3,9 +3,14 @@ const { Cake } = require('cake-ssg');
 const concat = require('gulp-concat');
 const connect = require('gulp-connect');
 const del = require('del');
+const merge = require('merge2');
 const sass = require('gulp-sass')(require('sass'));
 
 const target = 'docs';
+
+const cssLib = [
+  'node_modules/bootstrap-icons/font/bootstrap-icons.css',
+];
 
 const cakeOptions = {
   outputFolder: target,
@@ -21,9 +26,13 @@ function buildHtml() {
 }
 
 function buildStyles() {
-  return src('css/**/*.scss')
-    .pipe(sass({ includePaths: 'node_modules' }).on('error', sass.logError))
-    .pipe(concat('main.css'))
+  let stream = src('css/**/*.scss')
+    .pipe(sass({ includePaths: 'node_modules' }).on('error', sass.logError));
+  
+  stream = merge(stream, src(cssLib))
+    .pipe(concat('main.css'));
+  
+  return stream
     .pipe(dest(target))
     .pipe(connect.reload());
 };
@@ -34,6 +43,8 @@ function copyBoostrapJs() {
 }
 
 function copyStatic() {
+  src('node_modules/bootstrap-icons/font/fonts/**')
+    .pipe(dest(target + '/fonts'));
   return src('img/**')
     .pipe(dest(target))
     .pipe(connect.reload());
