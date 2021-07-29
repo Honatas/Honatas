@@ -1,0 +1,27 @@
+{
+  "name": "honatas",
+  "version": "1.0.0",
+  "description": "My curriculum vitae online",
+  "author": "Jonatas de Moraes Junior",
+  "license": "ISC",
+  "homepage": "https://github.com/Honatas/Honatas#readme",
+  "scripts": {
+    "build": "gulp build",
+    "start": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Honatas/Honatas.git"
+  },
+  "dependencies": {
+    "bootstrap": "^5.0.2",
+    "cake-ssg": "^0.0.1",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-connect": "^5.7.0",
+    "gulp-sass": "^5.0.0",
+    "sass": "^1.36.0"
+  }
+}

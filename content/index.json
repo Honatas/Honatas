@@ -1,0 +1,15 @@
+{
+  "name": "Jonatas de Moraes Junior",
+  "title": "Senior Fullstack Software Engineer",
+  "contacts": {
+    "email": "jmoraes@gmail.com"
+  },
+  "profile": "With about 17 years of experience in IT, I consider myself a very versatile professional capable of performing at every step of the development proccess - from requiremets through development and delivery - always following the precepts of the Agile methodology. My main focus is on product quality, both code and deliverables.",
+  "experiences": [{
+    "from": "Feb, 2018",
+    "to": "now",
+    "title": "Systems Architect / Tech Lead",
+    "company": "Discover Technology",
+    "description": "Designed and implemented several systems for different customers, involving Web and Mobile applications and Cloud environments. Created CI/CD pipelines for most of them, and automated development environments in oder to speed up onboarding proccesses. Responsible also for recruitment and mentoring of newcomers."
+  }]
+}

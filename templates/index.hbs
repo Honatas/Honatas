@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ name }}</title>
+  <link href="main.css" rel="stylesheet">
+</head>
+<body>
+{{#with content}}
+  <div class="container">
+    <div class="rounded shadow w-100 my-4 d-flex bg-white">
+      
+      <div id="left-lane" class="text-white p-3 rounded-start">
+        <div class="mb-5">
+          <img id="my-face" src="Jonatas.jpg" class="m-4 border border-5 border-white rounded-pill">
+        </div>
+        <div class="fw-bold mb-2">SUMMARY</div>
+        <div class="text-justify">{{ profile }}</div>
+        
+      </div>
+      
+      <div class="p-3 mt-3 flex-grow-1">
+        <div class="d-flex flex-column align-items-center mt-2 mb-5">
+          <h1 class="mb-0">{{ name }}</h1>
+          <div>{{ title }}</div>
+          {{#with contacts}}
+            <div>
+              <div>Email: {{ email }}</div> 
+            </div>
+          {{/with}}
+        </div>
+
+        {{#each experiences}}
+          <div>{{ title }} at {{ company }}</div>
+          <div>{{ from }} - {{ to }}</div>
+          <div>{{ description }}</div>
+        {{/each}}
+      </div>
+    </div>
+  </div>
+{{/with}}
+</body>
+</html>

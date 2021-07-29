@@ -1,0 +1,17 @@
+@import "bootstrap/scss/bootstrap";
+
+body {
+  background-color: #dee2e6;
+}
+
+#left-lane {
+  background-color: #3d0a91;
+  width: 400px;
+}
+
+#my-face {
+  display: block;
+  max-width:320px;
+  width: auto;
+  height: auto;
+}
