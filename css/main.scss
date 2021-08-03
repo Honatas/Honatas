@@ -2,11 +2,36 @@
 
 body {
   background-color: $gray-300;
+  @media print {
+    font-size: 10px;
+    color: black;
+  }
+}
+
+.fs-4 {
+  @media print {
+    font-size: 15px !important;
+  }
+}
+
+.fs-5 {
+  @media print {
+    font-size: 12px !important;
+  }
 }
 
 #left-lane {
   background-color: $blue-700;
   width: 350px;
+  @media print {
+    width: 200px;
+  }
+}
+
+#right-lane {
+  @media print {
+    margin-right: -10px;
+  }
 }
 
 #my-face {
@@ -14,6 +39,9 @@ body {
   max-width: 270px;
   width: auto;
   height: auto;
+  @media print {
+    max-width: 120px;
+  }
 }
 
 #header {
@@ -27,6 +55,9 @@ body {
 
 .star {
   color: $yellow-500;
+  @media print {
+    color: black;
+  }
 }
 
 #building {

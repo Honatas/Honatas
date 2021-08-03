@@ -8,19 +8,44 @@
   <link href="main.css" rel="stylesheet">
 </head>
 <body>
-{{#with content}}
+  {{#with content}}
   <div class="container">
-    <div class="rounded shadow w-100 my-4 d-flex bg-white">
-      {{>left}}
-      <div class="flex-grow-1">
-        {{>header}}
-        <div class="p-5">
-          {{>experiences}}
-          {{>education}}
+    <div class="rounded shadow w-100 my-4">
+      <div id="printable">
+        <div class="d-flex">
+          {{>left}}
+          <div id="right-lane" class="flex-grow-1">
+            {{>header}}
+            <div class="d-flex flex-row-reverse bg-white d-print-none">
+              <button id="bt-print"type="button" class="btn btn-light border me-4 mt-3">
+                <i class="bi bi-printer-fill me-2"></i>Print this resume
+              </button>
+            </div>
+            <div class="p-5 pt-0 bg-white">
+              {{>experiences}}
+              {{>education}}
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </div>
-{{/with}}
+  {{/with}}
+  <script type="text/javascript">
+    window.onload = function() {
+      document.getElementById('bt-print').addEventListener('click', function() {
+        var divContents = document.getElementById('printable').innerHTML;
+        var printWindow = window.open('', '', 'height=650,width=900,top=100,left=150');
+        printWindow.document.write('<html><head><title>Jonatas de Moraes Junior</title><link href="main.css" rel="stylesheet" type="text/css"></head><body>');
+        printWindow.document.write(divContents);
+        printWindow.document.write('</body></html>');
+        printWindow.document.close();
+        setTimeout(function() {
+          printWindow.print();
+          printWindow.close();
+        }, 500);
+      });
+    };
+  </script>
 </body>
 </html>

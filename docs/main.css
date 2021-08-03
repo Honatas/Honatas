@@ -10749,10 +10749,39 @@ textarea.form-control-lg {
 body {
   background-color: #dee2e6;
 }
+@media print {
+  body {
+    font-size: 10px;
+    color: black;
+  }
+}
+
+@media print {
+  .fs-4 {
+    font-size: 15px !important;
+  }
+}
+
+@media print {
+  .fs-5 {
+    font-size: 12px !important;
+  }
+}
 
 #left-lane {
   background-color: #084298;
   width: 350px;
+}
+@media print {
+  #left-lane {
+    width: 200px;
+  }
+}
+
+@media print {
+  #right-lane {
+    margin-right: -10px;
+  }
 }
 
 #my-face {
@@ -10761,6 +10790,11 @@ body {
   width: auto;
   height: auto;
 }
+@media print {
+  #my-face {
+    max-width: 120px;
+  }
+}
 
 #header {
   background-color: #495057;
@@ -10768,6 +10802,11 @@ body {
 }
 .star {
   color: #ffc107;
+}
+@media print {
+  .star {
+    color: black;
+  }
 }
 
 #building {

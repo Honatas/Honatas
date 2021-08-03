@@ -8,6 +8,10 @@ const sass = require('gulp-sass')(require('sass'));
 
 const target = 'docs';
 
+const jsLib = [
+  // 'node_modules/bootstrap/dist/js/bootstrap.min.js',
+];
+
 const cssLib = [
   'node_modules/bootstrap-icons/font/bootstrap-icons.css',
 ];
@@ -47,8 +51,9 @@ function buildStyles() {
     .pipe(connect.reload());
 };
 
-function copyBoostrapJs() {
-  return src(['node_modules/bootstrap/dist/js/bootstrap.min.js'])
+function js() {
+  return src(jsLib)
+    .pipe(concat('main.js'))
     .pipe(dest(target))
 }
 
@@ -78,7 +83,7 @@ function watchFiles(cb) {
 const build = series(
   clean, 
   copyStatic, 
-  copyBoostrapJs,
+  // js,
   parallel(
     buildHtml,
     buildStyles,

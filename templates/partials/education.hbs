@@ -1,5 +1,5 @@
 <div class="d-flex mb-2 mt-3">
-  <div id="university" class="border border-3 rounded-pill"><i class="bi-bank2"></i></div>
+  <div id="university" class="border border-3 rounded-pill d-print-none"><i class="bi-bank2"></i></div>
   <div class="ms-2 d-flex align-items-center">
     <div class="fs-4">EDUCATION</div>
   </div>
@@ -7,7 +7,7 @@
 
 {{#each education}}
   <div class="d-flex">
-    <div class="pill"><i class="bi-circle-fill"></i></div>
+    <div class="pill d-print-none"><i class="bi-circle-fill"></i></div>
     <div class="d-flex flex-grow-1">
       <div class="fs-5">{{ title }}</div>
       <div class="d-flex flex-grow-1 justify-content-end align-items-center">
@@ -16,7 +16,7 @@
     </div>
   </div>
   <div class="d-flex">
-    <div class="side"></div>
+    <div class="side d-print-none"></div>
     <div>
       <div class="mb-5">{{ entity }} - {{ locale }}</div>
     </div>
