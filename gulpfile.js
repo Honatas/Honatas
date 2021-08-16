@@ -6,7 +6,7 @@ const del = require('del');
 const merge = require('merge2');
 const sass = require('gulp-sass')(require('sass'));
 
-const target = 'docs';
+const target = 'dist';
 
 const jsLib = [
   // 'node_modules/bootstrap/dist/js/bootstrap.min.js',
