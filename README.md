@@ -1,6 +1,6 @@
 # Jonatas de Moraes Junior
 
-<a href="https://www.linkedin.com/in/jonatas-de-moraes-junior-b9b6741a">
+<a href="https://www.linkedin.com/in/jonatas-de-moraes-junior">
   <img src="https://img.shields.io/badge/-Jonatas%20de%20Moraes%20Junior-blue?style=for-the-badge&logo=Linkedin&logoColor=white" style="height:20px"/>
 </a>
 <a href="https://dev.to/honatas">
@@ -76,6 +76,12 @@ A Java validation tool that leverages Java's lambda functions allowing you to cr
   <img src="https://img.shields.io/badge/-↗-black?style=plastic&logo=dev.to&logoColor=white"/>
 </a>  
 An article presenting an alternative to using JWTs for user session control in a microservices environment.  
+
+[**Factory Pattern with Polymorphism on Spring**](https://dev.to/honatas/factory-pattern-with-polymorphism-on-spring-47e)
+<a href="https://dev.to/honatas/factory-pattern-with-polymorphism-on-spring-47e">
+  <img src="https://img.shields.io/badge/-↗-black?style=plastic&logo=dev.to&logoColor=white"/>
+</a>  
+Implementation of GoF's Factory Pattern using Spring dependency injection.  
 
 [**Is Hibernate Really Worth It?**](https://dev.to/honatas/is-hibernate-really-worth-it-1cmi)
 <a href="https://dev.to/honatas/is-hibernate-really-worth-it-1cmi">
