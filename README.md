@@ -94,7 +94,7 @@ Implementation of GoF's Factory Pattern using Spring dependency injection.
 <a href="https://dev.to/honatas/is-hibernate-really-worth-it-1cmi">
   <img src="https://img.shields.io/badge/-↗-black?style=plastic&logo=dev.to&logoColor=white"/>
 </a>  
-An article where I discuss the downsides of using ORMs and present an alternative to it.  
+An article where I discuss the downsides of using ORMs and present an alternative to it. **WARNING**: this is a bit outdated and I may have changed my mind about one thing or two, but if you feel like listening to old me ranting, go ahead and have a good time.  
 
 
 ## Devops
