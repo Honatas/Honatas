@@ -25,6 +25,7 @@ I'll present here some software I've come up with, and what has motivated me to 
 </a>
 <a href="https://github.com/Honatas/multi-select-webcomponent">
   <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/honatas/multi-select-webcomponent?style=social">
+  <img alt="GitHub Repo forks" src="https://img.shields.io/github/forks/honatas/multi-select-webcomponent?style=social&label=Fork">
 </a>  
 A Webcomponent that allows you to make multiple selections while having almost the same complexity as adding a \<select\> tag to your html.  
 
@@ -70,6 +71,12 @@ A bit of reasoning on why you may not need a Virtual DOM Framework for every pro
   <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/honatas/field-validator?style=social">
 </a>  
 A Java validation tool that leverages Java's lambda functions allowing you to create your set of validators and execute them over arbitrary data.  
+
+[**Redis-session**](https://github.com/Honatas/redis-session)
+<a href="https://github.com/Honatas/redis-session">
+  <img src="https://img.shields.io/badge/-↗-navy?style=plastic&logo=github&logoColor=white"/>
+</a>  
+A PoC showing its possible to control user sessions without resorting to JWTs.
 
 [**A different approach to User Sessions in Microservices using Redis**](https://dev.to/honatas/a-different-approach-to-user-sessions-in-microservices-5bpi)
 <a href="https://dev.to/honatas/a-different-approach-to-user-sessions-in-microservices-5bpi">
