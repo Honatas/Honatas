@@ -76,7 +76,7 @@ A Java validation tool that leverages Java's lambda functions allowing you to cr
 <a href="https://github.com/Honatas/redis-session">
   <img src="https://img.shields.io/badge/-↗-navy?style=plastic&logo=github&logoColor=white"/>
 </a>  
-A PoC showing its possible to control user sessions without resorting to JWTs.
+A PoC showing its possible to control user sessions without resorting to JWTs, made with Typescript and NestJS.
 
 [**A different approach to User Sessions in Microservices using Redis**](https://dev.to/honatas/a-different-approach-to-user-sessions-in-microservices-5bpi)
 <a href="https://dev.to/honatas/a-different-approach-to-user-sessions-in-microservices-5bpi">
