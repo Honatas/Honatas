@@ -51,6 +51,7 @@ A bit older, but if you are still using Bootstrap 4 and JQuery, maybe this autoc
 </a>
 <a href="https://github.com/Honatas/frameworkless-jamstack">
   <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/honatas/frameworkless-jamstack?style=social">
+  <img alt="GitHub Repo forks" src="https://img.shields.io/github/forks/honatas/frameworkless-jamstack?style=social&label=Fork">
 </a>  
 A PoC (Proof of Concept) that showcases how one can get a modern web development enviroment without resorting to feature-bloated frameworks.
 
@@ -69,12 +70,17 @@ A bit of reasoning on why you may not need a Virtual DOM Framework for every pro
 </a>
 <a href="https://github.com/Honatas/field-validator">
   <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/honatas/field-validator?style=social">
+  <img alt="GitHub Repo forks" src="https://img.shields.io/github/forks/honatas/field-validator?style=social&label=Fork">
 </a>  
 A Java validation tool that leverages Java's lambda functions allowing you to create your set of validators and execute them over arbitrary data.  
 
 [**Redis-session**](https://github.com/Honatas/redis-session)
 <a href="https://github.com/Honatas/redis-session">
   <img src="https://img.shields.io/badge/-↗-navy?style=plastic&logo=github&logoColor=white"/>
+</a>
+<a href="https://github.com/Honatas/redis-session">
+  <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/honatas/redis-session?style=social">
+  <img alt="GitHub Repo forks" src="https://img.shields.io/github/forks/honatas/redis-session?style=social&label=Fork">
 </a>  
 A PoC showing its possible to control user sessions without resorting to JWTs, made with Typescript and NestJS.
 
